@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.bg-img {
+  background-image: url(/public/LogresAssets/img/Mountain.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: -100vh;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #91df89;
+  background-position: 40vw;
+}
+.logo-logres{
+  position: absolute;
+  left: 15%;
+  /* width: 450px; */
+  top: 30%;
+}
+.container {
+  padding-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+form {
+  margin-left: 40em;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  margin-top: 50%;
+  margin-left: 25%;
+}
+.btn {
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .bg-img {
+    background-image: url(/public/LogresAssets/img/Mountain.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  form {
+    margin-top: 1vh;
+    margin-right: 4em;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-logres{
+    position: absolute;
+    left: 20%;
+    right: 25%;
+    top: 0%;
+  }
+
+}
+@media only screen and (max-width: 1100px) {
+  /* For mobile phones: */
+  form {
+    margin-left: auto;
+  }
+}
