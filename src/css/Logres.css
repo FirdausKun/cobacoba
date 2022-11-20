@@ -3,7 +3,7 @@
   font-family: "Poppins", sans-serif;
 }
 .bg-img {
-  background-image: url(/public/LogresAssets/img/Mountain.jpg);
+  background-image: url(/LogresAssets/img/Mountain.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -47,7 +47,7 @@ form {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .bg-img {
-    background-image: url(/public/LogresAssets/img/Mountain.jpg);
+    background-image: url(/LogresAssets/img/Mountain.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -72,5 +72,11 @@ form {
   /* For mobile phones: */
   form {
     margin-left: auto;
+  }
+  .logo-logres{
+    position: absolute;
+    left: 20%;
+    right: 25%;
+    top: 0%;
   }
 }
